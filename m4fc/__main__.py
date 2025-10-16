@@ -1,4 +1,4 @@
-"""Entry point for ukp_project_template."""
+"""Entry point for m4fc."""
 
 from .cli import main  # pragma: no cover
 
