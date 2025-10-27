@@ -3,7 +3,7 @@ import argparse, time
 from PIL import Image
 from io import BytesIO
 from tqdm import tqdm
-from _utils import *
+from utils import *
 
 
 
