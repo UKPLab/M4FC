@@ -78,7 +78,7 @@ If you use the M4FC dataset or this code in your work, please cite our paper as 
 ```bibtex 
 @article{geng2025m4fc,
   title={M4FC: a Multimodal, Multilingual, Multicultura, Multitask real-world Fact-Checking Dataset},
-  author={Geng, Jihaui and Tonglet, Jonathan and Gurevych, Iryna},
+  author={Geng, Jiahui and Tonglet, Jonathan and Gurevych, Iryna},
   journal={arXiv preprint arXiv:2510.23508},
   year={2025},
   url={https://arxiv.org/abs/2510.23508},
