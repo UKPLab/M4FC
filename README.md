@@ -5,7 +5,7 @@
 
 This repository contains the M4FC dataset, introduced in the 2025 preprint: ["M4FC: a a Multimodal, Multilingual, Multicultural, Multitask real-world Fact-Checking Dataset](https://www.arxiv.org/abs/2510.23508). The code is released under an **Apache 2.0** license, while the dataset is released under a **CC-BY-SA-4.0** license.
 
-Contact person: [Jiahui Geng](jiahui.geng@mbzuai.ac.ae) [Jonathan Tonglet](mailto:jonathan.tonglet@tu-darmstadt.de) 
+Contact person: [Jiahui Geng](jiahui.geng@mbzuai.ac.ae), [Jonathan Tonglet](mailto:jonathan.tonglet@tu-darmstadt.de) 
 
 [UKP Lab](https://www.ukp.tu-darmstadt.de/) | [TU Darmstadt](https://www.tu-darmstadt.de/)
 
