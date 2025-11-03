@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="M4FC: a Multimodal, Multilingual, Multicultural, Multitask fact-checking dataset">
+  <meta property="og:title" content="M4FC: a Multimodal, Multilingual, Multicultural, Multitask fact-checking dataset"/>
+  <meta property="og:description" content="multimodal fact-checking, misinformation"/>
+  <meta property="og:url" content="https://ukplab.github.io/m4fc/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_twitter_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Multimodal AI, LLM, MLLM, VLM, fact-checking, Multmiodality, Misinformation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>M4FC: a Multimodal, Multilingual, Multicultural, Multitask fact-checking dataset</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+  <!-- <div class="logo-container">
+    <img src="static/images/tuda_ukp_logo.png" alt="Logo" class="logo" width="600" style="margin-left: auto; margin-right: auto; display: block;">
+  </div> -->
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://ukplab.github.io/arxiv2025-misleading-visualizations/">
+            MLLMs and misleading visualizations
+          </a>
+          <a class="navbar-item" href="https://ukplab.github.io/arxiv2025-misviz/">
+            Misviz
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title"><img src="static/images/project_icon.png" width="70" /> M4FC: a Multimodal, Multilingual, Multicultural, Multitask fact-checking dataset </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=eMC-gQUAAAAJ&hl=en" target="_blank"><b>Jiahui Geng</b></a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://jtonglet.github.io/" target="_blank"><b>Jonathan Tonglet</b></a><sup>2,3,4</sup>,</span>
+                    <span class="author-block">
+                      <a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp" target="_blank"><b>Iryna Gurevych</b></a><sup>1,2</sup>
+                    </span>
+                  </div> 
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <sup>1</sup>MBZUAI&emsp;
+                      <sup>2</sup>UKP Lab, TU Darmstadt &emsp;
+                      <sup>3</sup>Electrical Engineering, KU Leuven&emsp;
+                      <sup>4</sup>Computer Science, KU Leuven&emsp;
+                    </span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://www.arxiv.org/pdf/2510.23508" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/UKPLab/M4FC" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2510.23508" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-centered">How to detect a misleading visualization?</h2>
+      <h2 class="subtitle has-text-justified">
+        🕵️ We introduce M4FC, a novel real-world multimodal fact-checking dataset, comprising 4,982 images and 6,985 claims. <br>
+        Each multimodal claim is available in one or two out of ten languages, and the dataset represents a diverse range of cultures from around the world.<br>
+        🤖 M4FC is the first dataset to provide labels for 6 real-world multimodal fact-checking tasks.
+      </h2>
+      <img src="static/images/M4FC.png" height="60%"/>
+      <!-- <h2 class="subtitle has-text-centered">Example tasks in <span style="font-weight:bold;">BLINK</span>.</h2> -->
+      <h2 class="hero-body has-text-centered">
+        <!-- <br> -->
+        An instance from M4FC with labels for all six tasks.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
+
+
+<!-- Paper abstract -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Existing real-world datasets for multimodal automated fact-checking have multiple limitations: they contain few instances, focus on only one or two languages and tasks, suffer from evidence leakage, or depend on external sets of news articles for sourcing true claims. To address these shortcomings, we introduce M4FC, a new real-world dataset comprising 4,982 images paired with 6,980 claims. The images, verified by professional fact-checkers from 22 organizations, represent diverse cultural and geographic contexts. Each claim is available in one or two out of ten languages. M4FC spans six multimodal fact-checking tasks: visual claim extraction, claimant intent prediction, fake detection, image contextualization, location verification, and verdict prediction.  We provide baseline results for all tasks and analyze how combining intermediate tasks influence downstream verdict prediction performance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Misviz -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-sixths">
+        <h2 class="title is-3">Misviz and Misviz-synth</h2>
+        <img src="static/images/new_tasks.png" width="70%"/>
+        <h2 class="content has-text-justified">
+         M4FC includes two new tasks: visual claim extraction and location verification. <br>
+         Visual claim extraction aims to extract a verifiable claim from a multimodal social media post. <br>
+         Location verification aims to validate a candidate location for an image by comparing with satellite imagery and maps.
+        </h2>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Misviz-synth -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-sixths">
+        <h2 class="title is-3">Models</h2>
+        <img src="static/images/results.png" width="70%"/>
+        <h2 class="content has-text-justified">
+          💡 We provide several results in the paper, including an analysis of how the output of intermediate tasks impact downstream verdict prediction performance. Learn more by reading our paper and stay tuned for future work!
+        </h2>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{geng2025m4fc,
+  title={M4FC: a Multimodal, Multilingual, Multicultura, Multitask real-world Fact-Checking Dataset},
+  author={Geng, Jiahui and Tonglet, Jonathan and Gurevych, Iryna},
+  journal={arXiv preprint arXiv:2510.23508},
+  year={2025},
+  url={https://arxiv.org/abs/2510.23508},
+  doi={10.48550/arXiv.2510.23508}
+}
+</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+          </p>
+          <p>
+            <a href="https://www.flaticon.com/free-icons/benefit" title="benefit icons">Benefit icons created by Vectorslab - Flaticon</a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
