@@ -33,6 +33,9 @@ $ pip install -r requirements.txt
 $ python src/download_m4fc_images.py
 ```
 
+⚠️ If you face issues downloading the images, please contact the authors by mail: [Jiahui Geng](jiahui.geng@mbzuai.ac.ae) or [Jonathan Tonglet](mailto:jonathan.tonglet@tu-darmstadt.de).
+
+
 More information about the dataset can be found in the [README](https://github.com/UKPLab/M4FC/tree/main/data) of the data folder.
 
 
