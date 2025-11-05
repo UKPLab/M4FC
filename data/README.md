@@ -12,8 +12,8 @@ $ pip install -r requirements.txt
 $ python -m spacy download en_core_web_lg
 $ python src/download_m4fc_images.py
 ```
-
-Some image urls become unavailable over time. If you are unable to download certain images, please open an issue or contact `jonathan.tonglet@tu-darmstadt.de`. We will regularly monitor the dataset to update broken image urls.
+⚠️ If you face issues downloading the images, please contact the authors by mail: [Jiahui Geng](jiahui.geng@mbzuai.ac.ae) or [Jonathan Tonglet](mailto:jonathan.tonglet@tu-darmstadt.de) 
+👷 We will regularly monitor the dataset to update broken image urls.
 
 Each entry corresponds to one image and the tasks and metadata extracted from the fact-checking article. We describe the fields of dataset entries below.
 Empty entries contain the string `not enough information`
