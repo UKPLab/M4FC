@@ -112,7 +112,7 @@ Empty entries contain the string `not enough information`
         ],
         "things": "Protest signs, including one supporting judge Sérgio Moro",
         "event": "Protests against Dilma Rousseff, focusing on corruption and impeachment",
-        "task_claim_normalization": false,
+        "task_claim_extraction": false,
         "task_location_verification": false,
         "true_caption": "Protesters gather in Copacabana, Rio de Janeiro, on March 13, 2016, to oppose Dilma Rousseff, highlighting issues of corruption and calls for impeachment.",
         "task_claimant_intent": true,
