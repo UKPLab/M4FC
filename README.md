@@ -1,9 +1,9 @@
-# M4FC: a a Multimodal, Multilingual, Multicultural, Multitask real-world Fact-Checking Dataset
+# M4FC: a Multimodal, Multilingual, Multicultural, Multitask real-world Fact-Checking Dataset
 
 [![License](https://img.shields.io/github/license/UKPLab/ukp-project-template)](https://opensource.org/licenses/Apache-2.0)
 [![Python Versions](https://img.shields.io/badge/Python-3.11-blue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 
-This repository contains the M4FC dataset, introduced in the 2025 preprint: ["M4FC: a a Multimodal, Multilingual, Multicultural, Multitask real-world Fact-Checking Dataset](https://www.arxiv.org/abs/2510.23508). The code is released under an **Apache 2.0** license, while the dataset is released under a **CC-BY-SA-4.0** license.
+This repository contains the M4FC dataset, introduced in the EMNLP 2026 Findings paper: ["M4FC: a Multimodal, Multilingual, Multicultural, Multitask real-world Fact-Checking Dataset](https://www.arxiv.org/abs/2510.23508). The code is released under an **Apache 2.0** license, while the dataset is released under a **CC-BY-SA-4.0** license.
 
 Contact person: [Jiahui Geng](jiahui.geng@mbzuai.ac.ae), [Jonathan Tonglet](mailto:jonathan.tonglet@tu-darmstadt.de) 
 
@@ -24,7 +24,7 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 
 M4FC is a real-world multimodal fact-checking dataset containing 4,982 images paired with 6,980 claims. The annotations are contained in *data/M4FC.json*. 
 
-The images can be download as follows:
+The images can be downloaded as follows:
 
 ```
 $ conda create --name M4FC python=3.9
@@ -40,7 +40,7 @@ More information about the dataset can be found in the [README](https://github.c
 
 
 ### ❕**Content warning** ❕
-> M4FC contains examples of real-world misinformation.  Due to the real-world nature of the data, events covered include wars and conflicts. As a result, some images contain graphic, violent content. When collecting the data, we decided not to filter out images with violent content to cover the actual distribution of images that our target users, professional fact-checkers, would want to provide as input. Given the graphic nature of some images, we do not release them directly. Instead, we do publicly release the URLs of the FC articles and the images.
+> M4FC contains examples of real-world misinformation.  Due to the data's real-world nature, the events covered include wars and conflicts. As a result, some images contain graphic, violent content. When collecting the data, we decided not to filter out images with violent content to cover the actual distribution of images that our target users, professional fact-checkers, would want to provide as input. Given the graphic nature of some images, we do not release them directly. Instead, we do publicly release the URLs of the FC articles and the images.
 
 ## Environment
 
